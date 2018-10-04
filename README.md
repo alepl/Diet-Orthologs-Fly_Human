@@ -10,7 +10,7 @@ Primero voy a pedirle que haga un archivo solo con el FBgene_ID, GeneSymbol, Ort
 
 `cut -f1,2,6,7 file > editado_dmel_orthologs_in_drosophila_species.csv`
 
-Sustituir "file" for el archivo donde esta la lista, en este caso dmel_orthologs_in_drosohphila_species_fb_2018_04.tsv  
+Sustituir "file" for el archivo donde esta la lista, en este caso: dmel_orthologs_in_drosohphila_species_fb_2018_04.tsv  
 
 Ya que tengo el archivo con las 4 columnas (editado_dmel_orthologs_in_drosophila_species.csv), voy a buscar la lista de genes diferencialmente expresados en este nuevo archivo   
 `bash buscar_otologos.sh`poniendole el archivo donde esta la lista que voy a buscar ($1) y el archivo en donde voy a buscar ($2)  
@@ -26,5 +26,5 @@ Ahora voy a buscar el gene id de D. melanogaster que resultaron tener ortologos 
 El archivo de genes de humanos es dmel_human_orthologs_in_drosohphila_species_fb_2018_04.tsv
 
 `bash buscar_otologos.sh`  
-$1 es geneID_Dmel_ortologos_Dmoja.csv
+$1 es geneID_Dmel_ortologos_Dmoja.csv  
 $2 dmel_human_orthologs_disease_fb_2018_04.tsv
