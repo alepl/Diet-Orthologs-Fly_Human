@@ -28,3 +28,5 @@ El archivo de genes de humanos es dmel_human_orthologs_in_drosohphila_species_fb
 `bash buscar_otologos.sh`  
 $1 es geneID_Dmel_ortologos_Dmoja.csv  
 $2 dmel_human_orthologs_disease_fb_2018_04.tsv
+
+geneID_Dmel_ortologos_Dmoja.csv-dmel_human_orthologs_disease_fb_2018_04.tsv-ortologos es mi archivo final con la lista de los ortologos en humano de los genes que se expresaron diferencialmente en D. mojavensis expuestas a dos diferentes dietas
