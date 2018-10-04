@@ -26,3 +26,5 @@ Ahora voy a buscar el gene id de D. melanogaster que resultaron tener ortologos 
 El archivo con la lista es dmel_human_orthologs_in_drosohphila_species_fb_2018_04.tsv
 
 `bash buscar_otologos.sh`
+$1 es geneID_Dmel_ortologos_Dmoja.csv
+$2 dmel_human_orthologs_disease_fb_2018_04.tsv
