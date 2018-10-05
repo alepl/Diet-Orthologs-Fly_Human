@@ -13,8 +13,9 @@ Primero voy a pedirle que haga un archivo solo con el FBgene_ID, GeneSymbol, Ort
 Sustituir "file" for el archivo donde esta la lista, en este caso: dmel_orthologs_in_drosohphila_species_fb_2018_04.tsv  
 
 Ya que tengo el archivo con las 4 columnas (editado_dmel_orthologs_in_drosophila_species.csv), voy a buscar la lista de genes diferencialmente expresados en este nuevo archivo   
-`bash buscar_otologos.sh`poniendole el archivo donde esta la lista que voy a buscar ($1) y el archivo en donde voy a buscar ($2)  
-$1 es editado_dmel_orthologs_in_drosophila_species.csv  
+`bash buscar_otologos.sh`  
+poniendole el archivo donde esta la lista que voy a buscar ($1) y el archivo en donde voy a buscar ($2)  
+Ejemplo: $1 es editado_dmel_orthologs_in_drosophila_species.csv  
 $2 es dmel_orthologs_in_drosohphila_species_fb_2018_04.tsv 
 
 Voy a hacer un archivo solo con la primera columna del archivo la cual contiene el geneID de D. melanogaster
