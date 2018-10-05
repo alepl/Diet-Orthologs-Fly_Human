@@ -1,4 +1,4 @@
-# Ortólogos Dmoja-Humano
+# Ortólogos D.mojavensis-Humano
 
 Primero vamos a utilizar una lista de genes que se expresaron diferencialmente. Esta lista se obtuvo previamente en una comparación entre moscas expuestas a dos diferentes dietas  
 
