@@ -22,15 +22,15 @@ $2 es editado_dmel_ort_dros_sp.csv
 
 Voy a hacer un archivo solo con la primera columna del archivo la cual contiene el geneID de D. melanogaster
 
-`cut -f1 file > geneID_Dmel_ortologos_Dmoja.csv`
+`cut -f1 file > geneIDorthologs_Diffexp_Diets_DMoj2.csv-editado_dmel_ort_dros_sp.csv_ort.csv`
 
 Ahora voy a buscar el gene id de D. melanogaster que resultaron tener ortologos en D. mojavensis, en la lista de ortólogos de Humanos disponible en el FlyBase
 
-El archivo de genes de humanos es dmel_human_orthologs_in_drosohphila_species_fb_2018_04.tsv
+El archivo de genes de humanos es dmel_human_ort_disease.tsv
 
 `bash buscar_otologos.sh`  
 
-$1 es geneID_Dmel_ortologos_Dmoja.csv  
-$2 dmel_human_orthologs_disease_fb_2018_04.tsv
+$1 es geneIDorthologs_Diffexp_Diets_DMoj2.csv-editado_dmel_ort_dros_sp.csv_ort.csv
+$2 dmel_human_ort_disease.tsv
 
-geneID_Dmel_ortologos_Dmoja.csv-dmel_human_orthologs_disease_fb_2018_04.tsv-ortologos es mi archivo final con la lista de los ortologos en humano de los genes que se expresaron diferencialmente en D. mojavensis expuestas a dos diferentes dietas
+geneIDorthologs_Diffexp_Diets_DMoj2.csv-editado_dmel_ort_dros_sp.csv_ort.csv_dmel_human_ort_disease.tsv_ORT.csv es mi archivo final con la lista de los ortologos en humano de los genes que se expresaron diferencialmente en D. mojavensis expuestas a dos diferentes dietas
