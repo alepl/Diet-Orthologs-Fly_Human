@@ -17,8 +17,8 @@ Ya que tengo el archivo con las 4 columnas (editado_dmel_orthologs_in_drosophila
 `bash buscar_otologos.sh`  
 
 poniendole el archivo donde esta la lista que voy a buscar ($1) y el archivo en donde voy a buscar ($2)  
-Ejemplo: $1 es editado_dmel_orthologs_in_drosophila_species.csv  
-$2 es dmel_orthologs_in_drosohphila_species_fb_2018_04.tsv 
+Ejemplo: $1 es Diffexp_Diets_DMoj2.csv   
+$2 es editado_dmel_orthologs_in_drosophila_species.csv
 
 Voy a hacer un archivo solo con la primera columna del archivo la cual contiene el geneID de D. melanogaster
 
